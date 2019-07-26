@@ -7,8 +7,7 @@
   "author": "Hiago Souza <hiagofss98@gmail.com>",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
-    "queue": "nodemon src/queue.js"
+    "dev": "nodemon src/app.js"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"

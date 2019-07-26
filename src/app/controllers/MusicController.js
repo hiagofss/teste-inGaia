@@ -33,10 +33,9 @@ class MusicController {
         const temperature = weather.main.temp;
         const city = weather.name;
         var tracks = [];
+        var genre;
 
         if (!err) {
-          var genre;
-
           if (temperature >= 25) {
             genre = genresConfig.above25;
           } else if (temperature >= 10 && temperature < 25) {
