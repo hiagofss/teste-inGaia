@@ -31,12 +31,14 @@ Suba seu código em um repositório do GitHub e, ao final, certifique-se de comp
 
 - Caso queira deixar seu serviço disponível online, uma boa dica é o [Heroku](https://www.heroku.com/). Ele permite que você publique algumas aplicações gratuitamente.
 
-## Instalação em ambiente local
+# Instalação em ambiente local
 
-# 1- `npm install` or `yarn`
+## 1- `git clone https://github.com/hiagofss/teste-inGaia.git`
 
-# 2- `npm start` or `yarn start`
+## 2- `npm install` or `yarn`
 
-# 3- Abra a seguinte URL no navegador: [http://localhost:3333](http://localhost:3333)
+## 3- `npm start` or `yarn start`
 
-## Acesso a API no Heroku: [https://ingaia-music.herokuapp.com/](https://ingaia-music.herokuapp.com/)
+## 4- Abra a seguinte URL no navegador: [http://localhost:3333](http://localhost:3333)
+
+## Acesso a API no Heroku: [https://ingaia-music.herokuapp.com/Campinas](https://ingaia-music.herokuapp.com/Campinas)
