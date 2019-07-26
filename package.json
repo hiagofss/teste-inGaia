@@ -6,6 +6,7 @@
   "repository": "https://github.com/hiagofss/teste-inGaia.git",
   "author": "Hiago Souza <hiagofss98@gmail.com>",
   "scripts": {
+    "start": "node src/app.js",
     "dev": "nodemon src/app.js",
     "queue": "nodemon src/queue.js"
   },
@@ -13,6 +14,7 @@
     "nodemon": "^1.19.1"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "request": "^2.88.0"
   }

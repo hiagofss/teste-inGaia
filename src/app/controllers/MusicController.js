@@ -1,13 +1,8 @@
 const request = require('request');
 
-const spotifyConfig = require('../../config/spotify');
-const whatherConfig = require('../../config/weather');
-const genresConfig = require('../../config/genres');
-
-// const spotifyApi = new SpotifyWebApi({
-//   clientId: spotifyConfig.clientID,c
-//   clientSecret: spotifyConfig.clientSecret
-// });
+const spotifyConfig = require('../../configs/spotifyConfig');
+const whatherConfig = require('../../configs/weatherConfig');
+const genresConfig = require('../../configs/genresConfig');
 
 var urlOptions = {
   url: 'https://accounts.spotify.com/api/token',
@@ -65,12 +60,11 @@ class MusicController {
                   body.tracks.items.map(item => {
                     tracks.push({
                       track: item.name,
-                      artist: item.artists.map(artist => artist.name),
-                      album: item.album.name
+                      artist: item.artists.map(artist => artist.name)
                     });
                   });
                 }
-                return res.json({ message: genre, temperature, city, tracks });
+                return res.json({ genre, temperature, city, tracks });
               });
             } else {
               return res.json({ error });
