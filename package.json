@@ -1,0 +1,19 @@
+{
+  "name": "teste-inGaia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/hiagofss/teste-inGaia.git",
+  "author": "Hiago Souza <hiagofss98@gmail.com>",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "queue": "nodemon src/queue.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
